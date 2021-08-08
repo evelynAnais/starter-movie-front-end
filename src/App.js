@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/starter-movie-front-end">
           <MoviesList />
         </Route>
         <Route exact path="/movies">
